@@ -1,0 +1,480 @@
+############# Length Train ############
+Size:  All
+############# Binary Relevance k-Nearest Neighbors ############
+F1-micro:  0.9980018702882667 Balanced accuracy: 
+Confidentiality : [1.]
+Integrity : [0.5]
+Availability : [0.5]
+Authentication : [0.8891547]
+Authorization : [0.94341943]
+Non-Repudiation : [0.95271868]
+Accountability : [1.]
+Reliability : [0.98031496]
+Privacy : [0.99896507]
+Physical Security : [0.88129496]
+Forgery Resistance : [0.98066784]
+Tamper Detection : [0.99036491]
+Data Freshness : [0.99077869]
+Confinement : [0.99230509]
+Interoperability : [1.]
+Data Origin : [1.]
+         11235577 function calls (11182754 primitive calls) in 227.357 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       16    0.000    0.000    0.000    0.000 <__array_function__ internals>:2(amax)
+       16    0.000    0.000    0.000    0.000 <__array_function__ internals>:2(amin)
+        5    0.000    0.000    0.000    0.000 <__array_function__ internals>:2(any)
+       10    0.000    0.000   11.784    1.178 <__array_function__ internals>:2(argpartition)
+    17468    0.033    0.000    0.276    0.000 <__array_function__ internals>:2(argsort)
+        1    0.000    0.000    0.000    0.000 <__array_function__ internals>:2(array_equal)
+        7    0.000    0.000    0.038    0.005 <__array_function__ internals>:2(atleast_2d)
+        3    0.000    0.000    0.000    0.000 <__array_function__ internals>:2(average)
+        3    0.000    0.000    0.003    0.001 <__array_function__ internals>:2(bincount)
+    87784    0.109    0.000    0.320    0.000 <__array_function__ internals>:2(can_cast)
+       34    0.000    0.000    0.238    0.007 <__array_function__ internals>:2(concatenate)
+        7    0.000    0.000    0.001    0.000 <__array_function__ internals>:2(cumsum)
+    17458    0.031    0.000    0.453    0.000 <__array_function__ internals>:2(diff)
+    17468    0.029    0.000    0.062    0.000 <__array_function__ internals>:2(empty_like)
+    17458    0.027    0.000    0.403    0.000 <__array_function__ internals>:2(flatnonzero)
+        1    0.000    0.000    0.000    0.000 <__array_function__ internals>:2(isposinf)
+    35096    0.053    0.000    0.296    0.000 <__array_function__ internals>:2(ndim)
+    17458    0.021    0.000    0.138    0.000 <__array_function__ internals>:2(nonzero)
+    17458    0.028    0.000    0.162    0.000 <__array_function__ internals>:2(ravel)
+        3    0.000    0.000    0.000    0.000 <__array_function__ internals>:2(result_type)
+       32    0.000    0.000    1.432    0.045 <__array_function__ internals>:2(stack)
+       86    0.000    0.000    0.017    0.000 <__array_function__ internals>:2(sum)
+       11    0.000    0.000    0.041    0.004 <__array_function__ internals>:2(unique)
+        2    0.000    0.000    0.046    0.023 <__array_function__ internals>:2(vstack)
+    17576    0.032    0.000    0.049    0.000 <frozen importlib._bootstrap>:416(parent)
+    17576    0.018    0.000    0.058    0.000 <frozen importlib._bootstrap>:997(_handle_fromlist)
+        1    0.052    0.052  227.356  227.356 <string>:1(<module>)
+       11    0.000    0.000    0.000    0.000 __init__.py:675(gen_batches)
+        1    0.000    0.000    0.000    0.000 __init__.py:908(get_chunk_n_rows)
+   193093    0.100    0.000    0.422    0.000 _asarray.py:14(asarray)
+   628561    0.183    0.000    0.431    0.000 _asarray.py:86(asanyarray)
+        1    0.000    0.000    0.000    0.000 _base.py:302(__init__)
+        2    0.000    0.000    0.000    0.000 _base.py:317(_check_algorithm_metric)
+        1    0.000    0.000    0.023    0.023 _base.py:360(_fit)
+        2    0.000    0.000    0.000    0.000 _base.py:527(_more_tags)
+       10    0.028    0.003   11.813    1.181 _base.py:553(_kneighbors_reduce_func)
+        1    0.000    0.000  138.280  138.280 _base.py:596(kneighbors)
+        2    0.000    0.000    0.000    0.000 _bootlocale.py:23(getpreferredencoding)
+        1    0.000    0.000    0.000    0.000 _classes.py:831(__init__)
+        1    0.000    0.000    0.000    0.000 _classes.py:87(__init__)
+        1    0.000    0.000    0.065    0.065 _classification.py:1074(fbeta_score)
+        2    0.000    0.000    0.000    0.000 _classification.py:1203(_prf_divide)
+        1    0.000    0.000    0.030    0.030 _classification.py:1264(_check_set_wise_labels)
+        1    0.000    0.000    0.065    0.065 _classification.py:1302(precision_recall_fscore_support)
+        1    0.000    0.000    0.035    0.035 _classification.py:358(multilabel_confusion_matrix)
+        1    0.000    0.000    0.000    0.000 _classification.py:47(_check_zero_division)
+        2    0.000    0.000    0.037    0.018 _classification.py:56(_check_targets)
+        1    0.000    0.000    0.065    0.065 _classification.py:949(f1_score)
+       18    0.000    0.000    0.000    0.000 _collections_abc.py:302(__subclasshook__)
+       31    0.000    0.000    0.000    0.000 _config.py:14(get_config)
+    17500    0.122    0.000    1.795    0.000 _index.py:127(_validate_indices)
+    17458    0.110    0.000    0.515    0.000 _index.py:151(_asindices)
+    17500    0.224    0.000    0.654    0.000 _index.py:246(_unpack_index)
+    17500    0.060    0.000    0.063    0.000 _index.py:292(_check_ellipsis)
+    17500    0.088    0.000   74.374    0.004 _index.py:32(__getitem__)
+    17458    0.041    0.000    0.071    0.000 _index.py:331(_maybe_bool_ndarray)
+    17552    0.048    0.000    0.068    0.000 _index.py:340(_first_element_bool)
+    35010    0.044    0.000    0.212    0.000 _index.py:355(_compatible_boolean_index)
+    17468    0.015    0.000    0.247    0.000 _methods.py:37(_amax)
+    17468    0.012    0.000    0.116    0.000 _methods.py:41(_amin)
+    17465    0.014    0.000    0.348    0.000 _methods.py:45(_sum)
+        4    0.000    0.000    0.000    0.000 _methods.py:53(_any)
+        1    0.000    0.000    0.000    0.000 _methods.py:56(_all)
+       11    0.000    0.000    0.000    0.000 _parallel_backends.py:185(in_main_thread)
+       11    0.000    0.000    0.000    0.000 _parallel_backends.py:280(__init__)
+       11    0.000    0.000    0.000    0.000 _parallel_backends.py:34(__init__)
+       11    0.000    0.000    0.000    0.000 _parallel_backends.py:501(effective_n_jobs)
+       32    0.000    0.000    0.000    0.000 _ufunc_config.py:132(geterr)
+       32    0.000    0.000    0.000    0.000 _ufunc_config.py:32(seterr)
+       16    0.000    0.000    0.000    0.000 _ufunc_config.py:429(__init__)
+       16    0.000    0.000    0.000    0.000 _ufunc_config.py:433(__enter__)
+       16    0.000    0.000    0.000    0.000 _ufunc_config.py:438(__exit__)
+        1    0.000    0.000    0.000    0.000 _unsupervised.py:114(__init__)
+        1    0.000    0.000    0.023    0.023 _unsupervised.py:125(fit)
+    35112    0.038    0.000    0.039    0.000 _util.py:134(_prune_array)
+       51    0.000    0.000    0.000    0.000 _weakrefset.py:16(__init__)
+       51    0.000    0.000    0.000    0.000 _weakrefset.py:20(__enter__)
+       51    0.000    0.000    0.000    0.000 _weakrefset.py:26(__exit__)
+       13    0.000    0.000    0.000    0.000 _weakrefset.py:36(__init__)
+       51    0.000    0.000    0.000    0.000 _weakrefset.py:52(_commit_removals)
+      104    0.000    0.000    0.000    0.000 _weakrefset.py:58(__iter__)
+      243    0.000    0.000    0.000    0.000 _weakrefset.py:70(__contains__)
+       51    0.000    0.000    0.000    0.000 _weakrefset.py:81(add)
+       89    0.000    0.000    0.002    0.000 abc.py:180(__instancecheck__)
+     65/7    0.001    0.000    0.002    0.000 abc.py:196(__subclasscheck__)
+        2    0.000    0.000    6.066    3.033 arff.py:1044(load)
+  2889216    0.943    0.000    0.943    0.000 arff.py:257(_unquote)
+    87584    0.596    0.000    3.868    0.000 arff.py:267(_parse_values)
+       32    0.000    0.000    0.000    0.000 arff.py:272(<listcomp>)
+    87552    0.740    0.000    1.683    0.000 arff.py:278(<listcomp>)
+       32    0.000    0.000    0.000    0.000 arff.py:438(__init__)
+  1400832    0.508    0.000    0.508    0.000 arff.py:442(__call__)
+    87554    0.256    0.000    6.047    0.000 arff.py:458(decode_rows)
+    87552    0.088    0.000    1.658    0.000 arff.py:474(_decode_values)
+    87552    1.062    0.000    1.569    0.000 arff.py:477(<listcomp>)
+        2    0.018    0.009    6.065    3.032 arff.py:518(decode_rows)
+        2    0.000    0.000    0.000    0.000 arff.py:635(_get_data_object_for_decoding)
+        2    0.000    0.000    0.000    0.000 arff.py:667(__init__)
+        2    0.000    0.000    0.000    0.000 arff.py:688(_decode_relation)
+       66    0.000    0.000    0.001    0.000 arff.py:711(_decode_attribute)
+        2    0.000    0.000    6.066    3.033 arff.py:769(_decode)
+    87554    0.148    0.000    0.204    0.000 arff.py:861(stream)
+        2    0.000    0.000    6.066    3.033 arff.py:876(decode)
+       16    0.000    0.000    0.003    0.000 arrayprint.py:1473(_array_str_implementation)
+       16    0.000    0.000    0.000    0.000 arrayprint.py:358(_get_formatdict)
+       16    0.000    0.000    0.002    0.000 arrayprint.py:366(<lambda>)
+       16    0.000    0.000    0.002    0.000 arrayprint.py:409(_get_format_function)
+       16    0.000    0.000    0.003    0.000 arrayprint.py:461(wrapper)
+       16    0.000    0.000    0.003    0.000 arrayprint.py:478(_array2string)
+       16    0.000    0.000    0.003    0.000 arrayprint.py:516(array2string)
+       16    0.000    0.000    0.000    0.000 arrayprint.py:60(_make_options_dict)
+       16    0.000    0.000    0.000    0.000 arrayprint.py:65(<dictcomp>)
+       16    0.000    0.000    0.000    0.000 arrayprint.py:695(_extendLine)
+       16    0.000    0.000    0.001    0.000 arrayprint.py:709(_formatArray)
+    32/16    0.000    0.000    0.001    0.000 arrayprint.py:718(recurser)
+       16    0.000    0.000    0.000    0.000 arrayprint.py:827(_none_or_positive_arg)
+       16    0.000    0.000    0.002    0.000 arrayprint.py:836(__init__)
+       16    0.001    0.000    0.002    0.000 arrayprint.py:863(fillFormat)
+       32    0.000    0.000    0.000    0.000 arrayprint.py:913(<genexpr>)
+       32    0.000    0.000    0.000    0.000 arrayprint.py:918(<genexpr>)
+       32    0.000    0.000    0.000    0.000 arrayprint.py:922(<genexpr>)
+       32    0.000    0.000    0.000    0.000 arrayprint.py:923(<genexpr>)
+       16    0.000    0.000    0.000    0.000 arrayprint.py:947(__call__)
+       11    0.000    0.000    0.000    0.000 arraysetops.py:136(_unpack_tuple)
+       11    0.000    0.000    0.000    0.000 arraysetops.py:144(_unique_dispatcher)
+       11    0.000    0.000    0.041    0.004 arraysetops.py:149(unique)
+       11    0.002    0.000    0.041    0.004 arraysetops.py:309(_unique1d)
+       42    0.000    0.000    0.001    0.000 base.py:1174(_process_toarray_args)
+    52714    0.038    0.000    0.056    0.000 base.py:1188(isspmatrix)
+        1    0.000    0.000    0.000    0.000 base.py:20(__init__)
+    70279    0.055    0.000    0.133    0.000 base.py:238(nnz)
+        1    0.000    0.000    0.000    0.000 base.py:248(getformat)
+       24    0.000    0.000    0.155    0.006 base.py:294(asformat)
+        1    0.000    0.000    0.000    0.000 base.py:321(_more_tags)
+        1    0.000    0.000    0.000    0.000 base.py:324(_get_tags)
+        1    0.000    0.000    0.000    0.000 base.py:335(_check_n_features)
+        1    0.000    0.000    0.019    0.019 base.py:369(_validate_data)
+       10    0.000    0.000  106.153   10.615 base.py:453(__mul__)
+       10    0.000    0.000  106.154   10.615 base.py:556(__matmul__)
+    17584    0.036    0.000    0.036    0.000 base.py:66(__init__)
+    17582    0.040    0.000    0.042    0.000 base.py:673(__getattr__)
+        1    0.000    0.000    0.000    0.000 base.py:760(_more_tags)
+    70715    0.032    0.000    0.032    0.000 base.py:80(get_shape)
+        1    0.000    0.000    0.020    0.020 base.py:935(tocsc)
+        1    0.025    0.025    2.276    2.276 best_classifiers_all_balanced.py:125(balanced_accuracy_score)
+        1    0.000    0.000    2.341    2.341 best_classifiers_all_balanced.py:151(calculate_metrics)
+        1    0.032    0.032  227.305  227.305 best_classifiers_all_balanced.py:161(main)
+        1    0.068    0.068    9.853    9.853 best_classifiers_all_balanced.py:28(load_custom_dataset)
+        1    0.063    0.063    0.937    0.937 best_classifiers_all_balanced.py:39(<listcomp>)
+        1    0.061    0.061    0.974    0.974 best_classifiers_all_balanced.py:40(<listcomp>)
+        1    0.016    0.016    0.230    0.230 best_classifiers_all_balanced.py:42(<listcomp>)
+        1    0.016    0.016    0.243    0.243 best_classifiers_all_balanced.py:43(<listcomp>)
+        1    0.000    0.000  215.075  215.075 best_classifiers_all_balanced.py:88(predict_binary_relevance_k_nearest_neighbors)
+        1    0.000    0.000    0.000    0.000 brknn.py:12(__init__)
+        1    0.001    0.001    0.016    0.016 brknn.py:132(_predict_variant)
+        1    0.000    0.000    0.043    0.043 brknn.py:17(fit)
+        1    0.008    0.008  215.032  215.032 brknn.py:42(predict)
+        1    0.524    0.524   76.681   76.681 brknn.py:57(<listcomp>)
+        3    0.000    0.000    0.000    0.000 codecs.py:259(__init__)
+        3    0.000    0.000    0.000    0.000 codecs.py:308(__init__)
+     1439    0.004    0.000    0.008    0.000 codecs.py:318(decode)
+       26    0.000    0.000   13.284    0.511 compressed.py:1026(toarray)
+        4    0.000    0.000    0.005    0.001 compressed.py:1059(__get_has_canonical_format)
+    70259    0.078    0.000    0.078    0.000 compressed.py:107(getnnz)
+        4    0.000    0.000    0.000    0.000 compressed.py:1080(__set_has_canonical_format)
+        4    0.000    0.000    0.005    0.001 compressed.py:1088(sum_duplicates)
+       15    0.000    0.000    0.000    0.000 compressed.py:1119(__set_sorted)
+    17556    0.166    0.000    0.360    0.000 compressed.py:1144(prune)
+        1    0.000    0.000    0.001    0.001 compressed.py:1200(_with_data)
+        1    0.000    0.000    0.003    0.003 compressed.py:1214(_binopt)
+       26    0.000    0.000    0.000    0.000 compressed.py:124(_set_self)
+       52    0.000    0.000    0.000    0.000 compressed.py:1276(_process_slice)
+    17555    0.582    0.000    1.526    0.000 compressed.py:135(check_format)
+17555/17533    0.227    0.000    3.171    0.000 compressed.py:27(__init__)
+        1    0.000    0.000    0.003    0.003 compressed.py:363(multiply)
+       10    0.001    0.000  106.153   10.615 compressed.py:494(_mul_sparse_matrix)
+    17458    0.198    0.000    2.362    0.000 compressed.py:586(sum)
+    17458    0.122    0.000    1.140    0.000 compressed.py:615(_minor_reduce)
+       10    0.000    0.000    0.005    0.001 compressed.py:649(_get_sliceXslice)
+    17458    0.030    0.000    0.030    0.000 compressed.py:701(_major_slice)
+    17458    0.431    0.000   71.758    0.004 compressed.py:733(_minor_index_fancy)
+       26    0.000    0.000    0.039    0.001 compressed.py:777(_get_submatrix)
+        5    0.042    0.008    0.149    0.030 coo.py:126(__init__)
+       20    0.000    0.000    0.000    0.000 coo.py:239(getnnz)
+        5    0.001    0.000    0.039    0.008 coo.py:265(_check)
+        5    0.000    0.000    0.028    0.006 coo.py:372(tocsr)
+    17458    0.007    0.000    0.007    0.000 csc.py:126(tocsc)
+       10    0.000    0.000    0.078    0.008 csc.py:134(tocsr)
+    17458    0.077    0.000   71.864    0.004 csc.py:225(_get_arrayXslice)
+   104781    0.044    0.000    0.044    0.000 csc.py:230(_swap)
+       10    0.000    0.000    0.002    0.000 csr.py:135(transpose)
+        4    0.340    0.085    1.071    0.268 csr.py:149(tolil)
+       26    0.000    0.000    0.000    0.000 csr.py:167(tocsr)
+        1    0.000    0.000    0.006    0.006 csr.py:175(tocsc)
+      383    0.000    0.000    0.000    0.000 csr.py:235(_swap)
+       16    0.000    0.000    0.034    0.002 csr.py:317(_get_sliceXint)
+    17560    0.023    0.000    0.059    0.000 data.py:20(__init__)
+    35286    0.023    0.000    0.023    0.000 data.py:23(_get_dtype)
+        1    0.000    0.000    0.004    0.004 data.py:91(copy)
+69838/52380    0.189    0.000    0.206    0.000 defmatrix.py:167(__array_finalize__)
+    17458    0.007    0.000    0.007    0.000 defmatrix.py:253(_collapse)
+    17458    0.082    0.000    0.437    0.000 defmatrix.py:287(sum)
+       10    0.000    0.000  119.436   11.944 extmath.py:118(safe_sparse_dot)
+       20    0.000    0.000    0.022    0.001 extmath.py:49(row_norms)
+       22    0.000    0.000    0.013    0.001 extmath.py:663(_safe_accumulator_op)
+    17458    0.005    0.000    0.005    0.000 fromnumeric.py:1701(_ravel_dispatcher)
+    17458    0.043    0.000    0.115    0.000 fromnumeric.py:1705(ravel)
+    17458    0.005    0.000    0.005    0.000 fromnumeric.py:1812(_nonzero_dispatcher)
+    17458    0.022    0.000    0.099    0.000 fromnumeric.py:1816(nonzero)
+       86    0.000    0.000    0.000    0.000 fromnumeric.py:2100(_sum_dispatcher)
+       86    0.000    0.000    0.017    0.000 fromnumeric.py:2105(sum)
+        5    0.000    0.000    0.000    0.000 fromnumeric.py:2245(_any_dispatcher)
+        5    0.000    0.000    0.000    0.000 fromnumeric.py:2249(any)
+        7    0.000    0.000    0.000    0.000 fromnumeric.py:2414(_cumsum_dispatcher)
+        7    0.000    0.000    0.001    0.000 fromnumeric.py:2418(cumsum)
+       16    0.000    0.000    0.000    0.000 fromnumeric.py:2584(_amax_dispatcher)
+       16    0.000    0.000    0.000    0.000 fromnumeric.py:2589(amax)
+       16    0.000    0.000    0.000    0.000 fromnumeric.py:2709(_amin_dispatcher)
+       16    0.000    0.000    0.000    0.000 fromnumeric.py:2714(amin)
+    35096    0.011    0.000    0.011    0.000 fromnumeric.py:3071(_ndim_dispatcher)
+    35096    0.083    0.000    0.190    0.000 fromnumeric.py:3075(ndim)
+    34943    0.066    0.000   12.026    0.000 fromnumeric.py:52(_wrapfunc)
+      123    0.001    0.000    0.017    0.000 fromnumeric.py:70(_wrapreduction)
+      123    0.000    0.000    0.000    0.000 fromnumeric.py:71(<dictcomp>)
+       10    0.000    0.000    0.000    0.000 fromnumeric.py:752(_argpartition_dispatcher)
+       10    0.000    0.000   11.784    1.178 fromnumeric.py:756(argpartition)
+    17468    0.008    0.000    0.008    0.000 fromnumeric.py:995(_argsort_dispatcher)
+    17468    0.048    0.000    0.213    0.000 fromnumeric.py:999(argsort)
+    17458    0.008    0.000    0.008    0.000 function_base.py:1148(_diff_dispatcher)
+    17458    0.325    0.000    0.383    0.000 function_base.py:1152(diff)
+        3    0.000    0.000    0.000    0.000 function_base.py:276(_average_dispatcher)
+        3    0.000    0.000    0.000    0.000 function_base.py:280(average)
+    70259    0.222    0.000    0.222    0.000 getlimits.py:498(__init__)
+    35126    0.044    0.000    0.044    0.000 getlimits.py:509(min)
+    35133    0.023    0.000    0.023    0.000 getlimits.py:522(max)
+        1    0.000    0.000    0.000    0.000 inspect.py:2817(parameters)
+        1    0.000    0.000    0.000    0.000 inspect.py:479(getmro)
+        1    0.000    0.000    0.000    0.000 inspect.py:73(isclass)
+       16    0.000    0.000    0.569    0.036 lil.py:205(__getitem__)
+       16    0.000    0.000    0.567    0.035 lil.py:230(_get_sliceXint)
+       16    0.000    0.000    0.567    0.035 lil.py:270(_get_row_ranges)
+       16    0.207    0.013    0.208    0.013 lil.py:427(toarray)
+        7    0.000    0.000    0.050    0.007 lil.py:449(tocsr)
+    24/20    1.036    0.043    1.745    0.087 lil.py:85(__init__)
+        1    0.000    0.000    0.000    0.000 linecache.py:15(getline)
+        1    0.000    0.000    0.000    0.000 linecache.py:37(getlines)
+        1    0.000    0.000    0.000    0.000 linecache.py:82(updatecache)
+       34    0.000    0.000    0.000    0.000 multiarray.py:143(concatenate)
+    87784    0.022    0.000    0.022    0.000 multiarray.py:468(can_cast)
+        3    0.000    0.000    0.000    0.000 multiarray.py:634(result_type)
+    17468    0.006    0.000    0.006    0.000 multiarray.py:75(empty_like)
+        3    0.000    0.000    0.000    0.000 multiarray.py:852(bincount)
+        6    0.000    0.000    0.000    0.000 multiclass.py:100(<genexpr>)
+       34    0.000    0.000    0.000    0.000 multiclass.py:103(<genexpr>)
+        8    0.000    0.000    0.048    0.006 multiclass.py:113(is_multilabel)
+        8    0.000    0.000    0.050    0.006 multiclass.py:186(type_of_target)
+        4    0.000    0.000    0.000    0.000 multiclass.py:30(_unique_indicator)
+        2    0.000    0.000    0.021    0.011 multiclass.py:43(unique_labels)
+        6    0.000    0.000    0.021    0.003 multiclass.py:78(<genexpr>)
+        6    0.000    0.000    0.000    0.000 multiclass.py:89(<genexpr>)
+       21    0.000    0.000    0.000    0.000 numeric.py:1816(isscalar)
+        1    0.000    0.000    0.000    0.000 numeric.py:2313(_array_equal_dispatcher)
+        1    0.000    0.000    0.000    0.000 numeric.py:2317(array_equal)
+    17458    0.006    0.000    0.006    0.000 numeric.py:587(_flatnonzero_dispatcher)
+    17458    0.051    0.000    0.351    0.000 numeric.py:591(flatnonzero)
+       44    0.000    0.000    0.000    0.000 numerictypes.py:286(issubclass_)
+       22    0.000    0.000    0.000    0.000 numerictypes.py:360(issubdtype)
+        8    0.000    0.000    0.000    0.000 numerictypes.py:545(_can_coerce_all)
+       22    0.000    0.000    0.000    0.000 numerictypes.py:554(<listcomp>)
+        4    0.000    0.000    0.000    0.000 numerictypes.py:569(find_common_type)
+        4    0.000    0.000    0.000    0.000 numerictypes.py:621(<listcomp>)
+        4    0.000    0.000    0.000    0.000 numerictypes.py:622(<listcomp>)
+       10    0.000    0.000  125.935   12.593 pairwise.py:1350(_parallel_pairwise)
+       10    0.000    0.000    0.001    0.000 pairwise.py:1419(_check_chunk_size)
+       20    0.000    0.000    0.000    0.000 pairwise.py:1427(<genexpr>)
+       20    0.000    0.000    0.000    0.000 pairwise.py:1432(<genexpr>)
+        1    0.000    0.000    0.000    0.000 pairwise.py:1440(_precompute_metric_params)
+       11    0.519    0.047  138.275   12.570 pairwise.py:1473(pairwise_distances_chunked)
+       10    0.000    0.000  125.935   12.593 pairwise.py:1638(pairwise_distances)
+       10    6.424    0.642  125.934   12.593 pairwise.py:202(euclidean_distances)
+       20    0.000    0.000    0.000    0.000 pairwise.py:40(_return_float_dtype)
+       10    0.000    0.000    0.014    0.001 pairwise.py:64(check_pairwise_arrays)
+       11    0.000    0.000    0.000    0.000 parallel.py:385(effective_n_jobs)
+       11    0.000    0.000    0.000    0.000 parallel.py:76(get_active_backend)
+       11    0.000    0.000    0.000    0.000 process.py:155(daemon)
+       11    0.000    0.000    0.000    0.000 process.py:35(current_process)
+       34    0.000    0.000    0.000    0.000 shape_base.py:208(_arrays_for_stack_dispatcher)
+        2    0.000    0.000    0.000    0.000 shape_base.py:219(_vhstack_dispatcher)
+        2    0.001    0.000    0.046    0.023 shape_base.py:223(vstack)
+       32    0.000    0.000    0.000    0.000 shape_base.py:349(_stack_dispatcher)
+       32    0.001    0.000    1.091    0.034 shape_base.py:358(stack)
+       32    0.273    0.009    0.596    0.019 shape_base.py:421(<listcomp>)
+       32    0.076    0.002    0.076    0.002 shape_base.py:425(<setcomp>)
+       32    0.189    0.006    0.189    0.006 shape_base.py:433(<listcomp>)
+        7    0.000    0.000    0.000    0.000 shape_base.py:78(_atleast_2d_dispatcher)
+        7    0.011    0.002    0.037    0.005 shape_base.py:82(atleast_2d)
+        3    0.000    0.000    0.003    0.001 sparsefuncs.py:503(count_nonzero)
+    35126    0.349    0.000    0.978    0.000 sputils.py:119(get_index_dtype)
+    17458    0.040    0.000    0.115    0.000 sputils.py:172(get_sum_dtype)
+       21    0.000    0.000    0.001    0.000 sputils.py:181(isscalarlike)
+    35056    0.165    0.000    0.485    0.000 sputils.py:186(isintlike)
+       27    0.000    0.000    0.000    0.000 sputils.py:20(upcast)
+    17549    0.094    0.000    0.094    0.000 sputils.py:208(isshape)
+       21    0.000    0.000    0.000    0.000 sputils.py:238(isdense)
+    17584    0.217    0.000    0.280    0.000 sputils.py:265(check_shape)
+    52752    0.041    0.000    0.050    0.000 sputils.py:278(<genexpr>)
+    17462    0.046    0.000    0.275    0.000 sputils.py:351(asmatrix)
+    17458    0.041    0.000    0.041    0.000 sputils.py:71(downcast_intp_index)
+    17560    0.047    0.000    0.099    0.000 sputils.py:91(to_native)
+       24    0.000    0.000    0.000    0.000 sputils.py:95(getdtype)
+       11    0.000    0.000    0.000    0.000 threading.py:1230(current_thread)
+        1    0.000    0.000    0.000    0.000 tokenize.py:355(detect_encoding)
+        1    0.000    0.000    0.000    0.000 tokenize.py:379(read_or_stop)
+        1    0.000    0.000    0.000    0.000 tokenize.py:385(find_cookie)
+        1    0.000    0.000    0.000    0.000 tokenize.py:448(open)
+       22    0.000    0.000    0.000    0.000 typing.py:1019(_abc_negative_cache)
+        2    0.000    0.000    0.000    0.000 typing.py:1025(_abc_negative_cache)
+       14    0.000    0.000    0.000    0.000 typing.py:1033(_abc_negative_cache_version)
+        2    0.000    0.000    0.000    0.000 typing.py:1039(_abc_negative_cache_version)
+       55    0.000    0.000    0.000    0.000 typing.py:1089(__eq__)
+    40/12    0.000    0.000    0.001    0.000 typing.py:1145(__subclasscheck__)
+      8/4    0.000    0.000    0.000    0.000 typing.py:1164(__setattr__)
+        6    0.000    0.000    0.000    0.000 typing.py:875(__extrahook__)
+        4    0.000    0.000    0.000    0.000 typing.py:889(__extrahook__)
+        1    0.000    0.000    0.000    0.000 ufunclike.py:127(isposinf)
+        1    0.000    0.000    0.000    0.000 ufunclike.py:22(func)
+        1    0.000    0.000    0.000    0.000 ufunclike.py:48(func)
+        1    0.000    0.000    0.000    0.000 ufunclike.py:68(_dispatcher)
+        1    0.000    0.000    0.020    0.020 utils.py:14(get_matrix_in_format)
+        1    0.000    0.000    0.000    0.000 validation.py:1037(<listcomp>)
+       48    0.000    0.000    0.001    0.000 validation.py:187(_num_samples)
+        3    0.000    0.000    0.000    0.000 validation.py:248(check_consistent_length)
+        3    0.000    0.000    0.000    0.000 validation.py:259(<listcomp>)
+       30    0.000    0.000    0.036    0.001 validation.py:303(_ensure_sparse_format)
+       30    0.000    0.000    0.000    0.000 validation.py:397(_ensure_no_complex_data)
+       30    0.000    0.000    0.038    0.001 validation.py:404(check_array)
+    81/19    0.037    0.000  126.025    6.633 validation.py:59(inner_f)
+        1    0.000    0.000    0.000    0.000 validation.py:66(<listcomp>)
+       30    0.000    0.000    0.000    0.000 validation.py:688(_check_large_sparse)
+       30    0.001    0.000    0.014    0.000 validation.py:83(_assert_all_finite)
+        1    0.000    0.000    0.000    0.000 validation.py:977(check_is_fitted)
+        1    0.000    0.000    0.000    0.000 warnings.py:106(_formatwarnmsg)
+        1    0.000    0.000    0.000    0.000 warnings.py:20(_showwarnmsg_impl)
+        1    0.000    0.000    0.000    0.000 warnings.py:35(_formatwarnmsg_impl)
+        1    0.000    0.000    0.000    0.000 warnings.py:398(__init__)
+        1    0.000    0.000    0.000    0.000 warnings.py:85(_showwarnmsg)
+     1439    0.005    0.000    0.005    0.000 {built-in method _codecs.utf_8_decode}
+       32    0.000    0.000    0.000    0.000 {built-in method _csv.reader}
+        2    0.000    0.000    0.000    0.000 {built-in method _locale.nl_langinfo}
+    52766    0.034    0.000    0.034    0.000 {built-in method _operator.index}
+       27    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        1    0.000    0.000    0.001    0.001 {built-in method _warnings.warn}
+    87572    0.062    0.000    0.063    0.000 {built-in method builtins.any}
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.callable}
+        1    0.000    0.000  227.357  227.357 {built-in method builtins.exec}
+    35106    0.022    0.000    0.022    0.000 {built-in method builtins.getattr}
+    70450    0.135    0.000    0.174    0.000 {built-in method builtins.hasattr}
+       31    0.000    0.000    0.000    0.000 {built-in method builtins.hash}
+       16    0.000    0.000    0.000    0.000 {built-in method builtins.id}
+455930/455813    0.156    0.000    0.158    0.000 {built-in method builtins.isinstance}
+  274/178    0.000    0.000    0.001    0.000 {built-in method builtins.issubclass}
+    17554    0.020    0.000    0.020    0.000 {built-in method builtins.iter}
+   491419    0.099    0.000    0.099    0.000 {built-in method builtins.len}
+       17    0.000    0.000    0.000    0.000 {built-in method builtins.locals}
+    17598    0.023    0.000    0.023    0.000 {built-in method builtins.max}
+       37    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+       32    0.000    0.000    0.000    0.000 {built-in method builtins.next}
+       20    0.000    0.000    0.004    0.000 {built-in method builtins.print}
+        7    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.vars}
+        2    0.000    0.000    0.000    0.000 {built-in method from_iterable}
+        3    0.000    0.000    0.000    0.000 {built-in method io.open}
+       14    0.000    0.000    0.000    0.000 {built-in method numpy.arange}
+  1049352    2.965    0.000    2.965    0.000 {built-in method numpy.array}
+       32    0.000    0.000    0.000    0.000 {built-in method numpy.core._multiarray_umath.dragon4_positional}
+227885/192927    0.945    0.000   14.795    0.000 {built-in method numpy.core._multiarray_umath.implement_array_function}
+    17490    0.018    0.000    0.018    0.000 {built-in method numpy.core._multiarray_umath.normalize_axis_index}
+    35059    0.105    0.000    0.105    0.000 {built-in method numpy.empty}
+       64    0.000    0.000    0.000    0.000 {built-in method numpy.geterrobj}
+       32    0.000    0.000    0.000    0.000 {built-in method numpy.seterrobj}
+    34958    0.405    0.000    0.405    0.000 {built-in method numpy.zeros}
+        1    0.000    0.000    0.000    0.000 {built-in method posix.stat}
+        5    0.026    0.005    0.026    0.005 {built-in method scipy.sparse._sparsetools.coo_tocsr}
+       10    0.066    0.007    0.066    0.007 {built-in method scipy.sparse._sparsetools.csc_tocsr}
+    17458   17.120    0.001   17.120    0.001 {built-in method scipy.sparse._sparsetools.csr_column_index1}
+    17458   50.319    0.003   50.319    0.003 {built-in method scipy.sparse._sparsetools.csr_column_index2}
+        1    0.002    0.002    0.002    0.002 {built-in method scipy.sparse._sparsetools.csr_elmul_csr}
+        4    0.004    0.001    0.004    0.001 {built-in method scipy.sparse._sparsetools.csr_has_canonical_format}
+       10   40.091    4.009   40.091    4.009 {built-in method scipy.sparse._sparsetools.csr_matmat_maxnnz}
+       10   65.979    6.598   65.979    6.598 {built-in method scipy.sparse._sparsetools.csr_matmat}
+        1    0.005    0.005    0.005    0.005 {built-in method scipy.sparse._sparsetools.csr_tocsc}
+       26   13.283    0.511   13.283    0.511 {built-in method scipy.sparse._sparsetools.csr_todense}
+       26    0.032    0.001    0.032    0.001 {built-in method scipy.sparse._sparsetools.get_csr_submatrix}
+       26    0.000    0.000    0.000    0.000 {built-in method sys._getframe}
+       56    0.000    0.000    0.000    0.000 {method '__subclasses__' of 'type' objects}
+       29    0.000    0.000    0.000    0.000 {method '__subclasshook__' of 'object' objects}
+      118    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 {method 'all' of 'numpy.ndarray' objects}
+        3    0.000    0.000    0.000    0.000 {method 'any' of 'numpy.generic' objects}
+        1    0.000    0.000    0.000    0.000 {method 'any' of 'numpy.ndarray' objects}
+    35079    0.009    0.000    0.009    0.000 {method 'append' of 'list' objects}
+       10   11.784    1.178   11.784    1.178 {method 'argpartition' of 'numpy.ndarray' objects}
+    17468    0.116    0.000    0.116    0.000 {method 'argsort' of 'numpy.ndarray' objects}
+    17583    0.084    0.000    0.084    0.000 {method 'astype' of 'numpy.ndarray' objects}
+       47    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+        7    0.004    0.001    0.004    0.001 {method 'copy' of 'numpy.ndarray' objects}
+        7    0.001    0.000    0.001    0.000 {method 'cumsum' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'decode' of 'bytes' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+       16    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+       18    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+    87552    1.435    0.000    1.435    0.000 {method 'findall' of '_sre.SRE_Pattern' objects}
+       11    0.002    0.000    0.002    0.000 {method 'flatten' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+       42    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+       66    0.000    0.000    0.000    0.000 {method 'groups' of '_sre.SRE_Match' objects}
+       68    0.000    0.000    0.000    0.000 {method 'indices' of 'slice' objects}
+      139    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+      136    0.000    0.000    0.000    0.000 {method 'match' of '_sre.SRE_Pattern' objects}
+    17468    0.025    0.000    0.272    0.000 {method 'max' of 'numpy.ndarray' objects}
+    17468    0.021    0.000    0.137    0.000 {method 'min' of 'numpy.ndarray' objects}
+    17560    0.024    0.000    0.024    0.000 {method 'newbyteorder' of 'numpy.dtype' objects}
+    17463    0.104    0.000    0.104    0.000 {method 'nonzero' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+        4    0.000    0.000    0.000    0.000 {method 'pop' of 'set' objects}
+    34916    0.054    0.000    0.054    0.000 {method 'ravel' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'readline' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.000    0.000 {method 'readlines' of '_io._IOBase' objects}
+    52526    0.657    0.000    0.687    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+    17458    0.120    0.000    0.120    0.000 {method 'reduceat' of 'numpy.ufunc' objects}
+       51    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 {method 'reshape' of 'numpy.ndarray' objects}
+    17576    0.017    0.000    0.017    0.000 {method 'rpartition' of 'str' objects}
+       16    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+    87584    0.091    0.000    0.091    0.000 {method 'search' of '_sre.SRE_Pattern' objects}
+        1    0.000    0.000    0.000    0.000 {method 'seek' of '_io.BufferedReader' objects}
+       11    0.037    0.003    0.037    0.003 {method 'sort' of 'numpy.ndarray' objects}
+       84    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'startswith' of 'bytes' objects}
+    87785    0.027    0.000    0.027    0.000 {method 'startswith' of 'str' objects}
+    87795    0.021    0.000    0.021    0.000 {method 'strip' of 'str' objects}
+        7    0.000    0.000    0.000    0.000 {method 'sum' of 'numpy.ndarray' objects}
+   350209    0.195    0.000    0.195    0.000 {method 'tolist' of 'numpy.ndarray' objects}
+       22    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+      104    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+    17462    0.051    0.000    0.202    0.000 {method 'view' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+       14    0.043    0.003    0.043    0.003 {scipy.sparse._csparsetools.lil_flatten_to_array}
+        7    0.004    0.001    0.004    0.001 {scipy.sparse._csparsetools.lil_get_lengths}
+       16    0.057    0.004    0.057    0.004 {scipy.sparse._csparsetools.lil_get_row_ranges}
+       20    0.022    0.001    0.022    0.001 {sklearn.utils.sparsefuncs_fast.csr_row_norms}
+
+
